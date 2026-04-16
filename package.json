@@ -1,0 +1,14 @@
+{
+  "name": "idan-cc-plugin",
+  "version": "0.1.0",
+  "description": "Idan's personal Claude Code plugin - Apple Reminders hook and more",
+  "type": "module",
+  "files": [
+    "hooks/",
+    "commands/",
+    ".claude-plugin/"
+  ],
+  "keywords": ["claude-code", "reminders", "hooks", "productivity"],
+  "author": "Idan Lin",
+  "license": "MIT"
+}
