@@ -1,0 +1,15 @@
+{
+  "name": "agent-plugin",
+  "version": "0.1.0",
+  "description": "Apple Reminders session hook for Claude and Codex.",
+  "author": {
+    "name": "Idan Lin",
+    "email": "wakemanobannion@gmail.com"
+  },
+  "interface": {
+    "displayName": "Agent Plugin",
+    "shortDescription": "Apple Reminders session hook",
+    "developerName": "Idan Lin",
+    "category": "Productivity"
+  }
+}

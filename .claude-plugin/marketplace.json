@@ -1,18 +1,18 @@
 {
-  "name": "idan-cc-plugin",
+  "name": "agent-plugin",
   "owner": {
     "name": "Idan Lin",
     "email": "wakemanobannion@gmail.com"
   },
   "metadata": {
-    "description": "Idan's personal Claude Code plugin - hooks, tools and automations",
+    "description": "Cross-compatible Claude/Codex plugin with hooks, commands and automations",
     "version": "0.1.0"
   },
   "plugins": [
     {
-      "name": "idan-cc-plugin",
+      "name": "agent-plugin",
       "source": "./",
-      "description": "Personal productivity plugin with Apple Reminders integration. Shows incomplete reminders on session start.",
+      "description": "Apple Reminders session hook packaged for both Claude and Codex.",
       "category": "productivity",
       "tags": ["reminders", "apple", "hooks", "productivity"]
     }

@@ -1,6 +1,6 @@
-# idan-cc-plugin
+# agent-plugin
 
-Idan's personal Claude Code plugin.
+Apple Reminders session plugin for Claude and Codex.
 
 ## Features
 

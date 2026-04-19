@@ -1,0 +1,16 @@
+{
+  "name": "agent-plugin",
+  "interface": {
+    "displayName": "Agent Plugin"
+  },
+  "plugins": [
+    {
+      "name": "agent-plugin",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

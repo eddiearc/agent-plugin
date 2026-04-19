@@ -1,32 +1,38 @@
-# idan-cc-plugin
+# agent-plugin
 
-My personal Claude Code plugin — hooks, tools and automations.
+Apple Reminders session plugin packaged to work with both Claude-style and Codex-style plugin loaders.
 
 ## Features
 
-- **Apple Reminders Hook** — shows incomplete Personal reminders every time you start a Claude Code session
+- **Apple Reminders Hook** — shows incomplete `Personal` reminders every time a new session starts
 
 ## Install
 
-Add to your `~/.claude/settings.json`:
+Claude-style install:
 
 ```json
 {
   "extraKnownMarketplaces": {
-    "idan-cc-plugin": {
+    "agent-plugin": {
       "source": {
         "source": "github",
-        "repo": "eddiearc/idan-cc-plugin"
+        "repo": "eddiearc/agent-plugin"
       }
     }
   },
   "enabledPlugins": {
-    "idan-cc-plugin@idan-cc-plugin": true
+    "agent-plugin@agent-plugin": true
   }
 }
 ```
 
-Then run `/setup` in Claude Code.
+Codex-style local packaging expectations:
+
+- `.claude-plugin/plugin.json`
+- `.codex-plugin/plugin.json`
+- `.agents/plugins/marketplace.json`
+
+Then run `/setup`.
 
 ## Requirements
 

@@ -1,9 +1,9 @@
 ---
 name: setup
-description: Setup idan-cc-plugin - install dependencies and configure hooks
+description: Setup agent-plugin - install dependencies and configure hooks
 ---
 
-# Setup idan-cc-plugin
+# Setup agent-plugin
 
 ## Steps
 

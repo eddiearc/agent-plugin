@@ -1,12 +1,14 @@
 {
-  "name": "idan-cc-plugin",
+  "name": "agent-plugin",
   "version": "0.1.0",
-  "description": "Idan's personal Claude Code plugin - Apple Reminders hook and more",
+  "description": "Apple Reminders session plugin for Claude and Codex",
   "type": "module",
   "files": [
     "hooks/",
     "commands/",
-    ".claude-plugin/"
+    ".claude-plugin/",
+    ".codex-plugin/",
+    ".agents/"
   ],
   "keywords": ["claude-code", "reminders", "hooks", "productivity"],
   "author": "Idan Lin",
