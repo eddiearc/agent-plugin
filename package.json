@@ -1,16 +1,17 @@
 {
   "name": "agent-plugin",
   "version": "0.1.0",
-  "description": "Apple Reminders session plugin for Claude and Codex",
+  "description": "Extensible plugin repository for Claude and Codex",
   "type": "module",
   "files": [
     "hooks/",
     "commands/",
+    "skills/",
     ".claude-plugin/",
     ".codex-plugin/",
     ".agents/"
   ],
-  "keywords": ["claude-code", "reminders", "hooks", "productivity"],
+  "keywords": ["claude-code", "codex", "plugin", "hooks", "skills", "productivity"],
   "author": "Idan Lin",
   "license": "MIT"
 }
