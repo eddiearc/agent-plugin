@@ -1,10 +1,10 @@
 # Skills
 
-Reusable skills shipped with `agent-plugin`.
+Standalone skill repositories linked from `agent-plugin`.
 
-Keep one skill per subdirectory when skills are added.
+Keep canonical skill code in its own repository, then add the link here.
 
-## Included Skills
+## Linked Skills
 
-- `ai-redraft/`
+- [`ai-redraft`](https://github.com/eddiearc/ai-redraft)
   Focused AI redrafting workflow for prose drafts. The user highlights exact passages, writes rewrite comments, and the agent applies the resulting annotations to the source file.

@@ -5,14 +5,14 @@
     "email": "wakemanobannion@gmail.com"
   },
   "metadata": {
-    "description": "Cross-compatible Claude/Codex plugin with hooks, commands and reusable skills",
+    "description": "Cross-compatible Claude/Codex plugin with hooks, commands and linked skill repositories",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "agent-plugin",
       "source": "./",
-      "description": "Extensible plugin with an Apple Reminders hook and reusable agent skills.",
+      "description": "Extensible plugin with an Apple Reminders hook and linked skill repositories.",
       "category": "productivity",
       "tags": ["reminders", "apple", "hooks", "skills", "writing", "productivity"]
     }

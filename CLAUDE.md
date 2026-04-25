@@ -2,7 +2,7 @@
 
 Extensible plugin repository for Claude and Codex.
 
-This repo is not limited to a single hook. It is structured as a general plugin package that currently contains an Apple Reminders hook and reusable agent skills.
+This repo is not limited to a single hook. It is structured as a general plugin package that currently contains an Apple Reminders hook and links to standalone skill repositories.
 
 ## Features
 
@@ -12,14 +12,14 @@ This repo is not limited to a single hook. It is structured as a general plugin 
 - Also injects into `additionalContext` so Claude is aware of pending tasks
 
 ### AI Redraft Skill
-- `skills/ai-redraft/` — opens a local UI for marking exact prose passages with rewrite comments
+- [`eddiearc/ai-redraft`](https://github.com/eddiearc/ai-redraft) — standalone skill repository for marking exact prose passages with rewrite comments
 - Writes structured sidecar annotations for the agent to apply back to the draft
 
 ## Repository Layout
 
 - `commands/` — slash commands
 - `hooks/` — lifecycle hooks
-- `skills/` — reusable skills
+- `skills/` — links to standalone skill repositories
 - `docs/` — repository documentation
 - `.claude-plugin/`, `.codex-plugin/`, `.agents/plugins/` — runtime manifests that must stay aligned
 

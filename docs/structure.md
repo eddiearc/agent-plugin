@@ -17,7 +17,7 @@ The repository is intentionally organized by capability type, so hooks, commands
 - `hooks/`
   Runtime hooks triggered by lifecycle events.
 - `skills/`
-  Reusable agent skills.
+  Links to standalone skill repositories.
 - `docs/`
   Repository documentation and conventions.
 
@@ -27,8 +27,8 @@ The repository is intentionally organized by capability type, so hooks, commands
   Injects unfinished items from the Apple Reminders `Personal` list into session context.
 - `commands/setup.md`
   Describes dependency installation and hook wiring.
-- `skills/ai-redraft/`
-  Provides a local prose annotation UI that returns structured rewrite comments for agents to apply.
+- [`eddiearc/ai-redraft`](https://github.com/eddiearc/ai-redraft)
+  Standalone skill repository for a local prose annotation UI that returns structured rewrite comments for agents to apply.
 
 ## Conventions
 

@@ -1,14 +1,14 @@
 {
   "name": "agent-plugin",
   "version": "0.1.0",
-  "description": "Extensible plugin with an Apple Reminders hook and reusable agent skills.",
+  "description": "Extensible plugin with an Apple Reminders hook and linked skill repositories.",
   "author": {
     "name": "Idan Lin",
     "email": "wakemanobannion@gmail.com"
   },
   "interface": {
     "displayName": "Agent Plugin",
-    "shortDescription": "Hooks and reusable agent skills",
+    "shortDescription": "Hooks and linked skills",
     "developerName": "Idan Lin",
     "category": "Productivity"
   }
