@@ -10,8 +10,8 @@ It currently ships one Apple Reminders hook and links to standalone skill reposi
   Reads unfinished items from the `Personal` reminders list and injects them into session context on start.
 - `commands/setup.md`
   Documents dependency installation and hook configuration.
-- [`eddiearc/ai-redraft`](https://github.com/eddiearc/ai-redraft)
-  Standalone skill repository for marking exact prose passages and giving rewrite instructions before an agent edits the source file.
+- [`eddiearc/grade-ai-draft`](https://github.com/eddiearc/grade-ai-draft)
+  Standalone skill repository for grading AI-written drafts by marking exact passages and giving rewrite instructions before an agent edits the source file.
 
 ## Repository Layout
 

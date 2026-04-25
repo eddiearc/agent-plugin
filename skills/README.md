@@ -6,5 +6,5 @@ Keep canonical skill code in its own repository, then add the link here.
 
 ## Linked Skills
 
-- [`ai-redraft`](https://github.com/eddiearc/ai-redraft)
-  Focused AI redrafting workflow for prose drafts. The user highlights exact passages, writes rewrite comments, and the agent applies the resulting annotations to the source file.
+- [`grade-ai-draft`](https://github.com/eddiearc/grade-ai-draft)
+  Focused workflow for grading AI-written drafts. The user highlights exact passages, writes grading comments, and the agent applies the resulting annotations to the source file.

@@ -11,8 +11,8 @@ This repo is not limited to a single hook. It is structured as a general plugin 
 - Displays reminders as a `systemMessage` on session start
 - Also injects into `additionalContext` so Claude is aware of pending tasks
 
-### AI Redraft Skill
-- [`eddiearc/ai-redraft`](https://github.com/eddiearc/ai-redraft) — standalone skill repository for marking exact prose passages with rewrite comments
+### Grade AI Draft Skill
+- [`eddiearc/grade-ai-draft`](https://github.com/eddiearc/grade-ai-draft) — standalone skill repository for grading AI-written drafts with exact passage comments
 - Writes structured sidecar annotations for the agent to apply back to the draft
 
 ## Repository Layout

@@ -27,8 +27,8 @@ The repository is intentionally organized by capability type, so hooks, commands
   Injects unfinished items from the Apple Reminders `Personal` list into session context.
 - `commands/setup.md`
   Describes dependency installation and hook wiring.
-- [`eddiearc/ai-redraft`](https://github.com/eddiearc/ai-redraft)
-  Standalone skill repository for a local prose annotation UI that returns structured rewrite comments for agents to apply.
+- [`eddiearc/grade-ai-draft`](https://github.com/eddiearc/grade-ai-draft)
+  Standalone skill repository for a local UI that lets users grade AI-written drafts and returns structured rewrite comments for agents to apply.
 
 ## Conventions
 
