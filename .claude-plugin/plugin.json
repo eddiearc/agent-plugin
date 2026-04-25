@@ -1,7 +1,7 @@
 {
   "name": "agent-plugin",
   "version": "0.1.0",
-  "description": "Apple Reminders session hook for Claude and Codex.",
+  "description": "Extensible plugin with an Apple Reminders hook and reusable agent skills.",
   "author": {
     "name": "Idan Lin",
     "email": "wakemanobannion@gmail.com"

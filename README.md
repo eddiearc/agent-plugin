@@ -2,7 +2,7 @@
 
 An extensible plugin repository for Claude-style and Codex-style runtimes.
 
-It currently ships one Apple Reminders hook, but the repository is organized to grow into a multi-capability plugin instead of staying "the reminders hook repo".
+It currently ships one Apple Reminders hook and one prose revision skill, while staying organized as a multi-capability plugin.
 
 ## Current Capabilities
 
@@ -10,6 +10,8 @@ It currently ships one Apple Reminders hook, but the repository is organized to 
   Reads unfinished items from the `Personal` reminders list and injects them into session context on start.
 - `commands/setup.md`
   Documents dependency installation and hook configuration.
+- `skills/ai-redraft/`
+  Opens a local draft annotation UI so a user can mark exact passages and give rewrite instructions before an agent edits the source file.
 
 ## Repository Layout
 
@@ -24,7 +26,7 @@ It currently ships one Apple Reminders hook, but the repository is organized to 
 - `hooks/`
   Lifecycle hooks.
 - `skills/`
-  Future reusable skills.
+  Reusable agent skills.
 - `docs/`
   Repository documentation.
 

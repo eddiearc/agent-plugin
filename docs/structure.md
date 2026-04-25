@@ -2,7 +2,7 @@
 
 `agent-plugin` is an extensible plugin repository for Claude-style and Codex-style runtimes.
 
-The repository is intentionally organized by capability type, even if only one hook exists today.
+The repository is intentionally organized by capability type, so hooks, commands, and skills can evolve independently.
 
 ## Layout
 
@@ -17,7 +17,7 @@ The repository is intentionally organized by capability type, even if only one h
 - `hooks/`
   Runtime hooks triggered by lifecycle events.
 - `skills/`
-  Optional reusable skills for future expansion.
+  Reusable agent skills.
 - `docs/`
   Repository documentation and conventions.
 
@@ -27,6 +27,8 @@ The repository is intentionally organized by capability type, even if only one h
   Injects unfinished items from the Apple Reminders `Personal` list into session context.
 - `commands/setup.md`
   Describes dependency installation and hook wiring.
+- `skills/ai-redraft/`
+  Provides a local prose annotation UI that returns structured rewrite comments for agents to apply.
 
 ## Conventions
 
